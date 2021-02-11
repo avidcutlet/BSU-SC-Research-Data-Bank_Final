@@ -1,0 +1,24 @@
+/******************************
+*         About page          *
+******************************/
+
+body {
+    font-family: 'serif';
+  }
+  
+  .header-font {
+    font-family: 'Abril Fatface', serif;
+  }
+  
+  #greetings-size {
+    font-size: 40px;
+  }
+  
+  .greetings-bg {
+    background-color: #f2f2f2;
+  
+  }
+  
+  .subtitle-size-1 {
+    font-size: 40px;
+  }

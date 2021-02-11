@@ -1,0 +1,98 @@
+/* For input tags design */
+
+.cmt-1 {
+    margin-top: 3.7%;
+}
+
+
+.bootstrap-tagsinput {
+    width: 100%;
+    padding: .5%;
+}
+
+.label-info{
+    background-color: #17a2b8;
+
+}
+.label {
+    display: inline-block;
+    padding: .25em .4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1.5;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,
+                background-color .15s ease-in-out,
+                border-color .15s ease-in-out,
+                box-shadow .15s ease-in-out;
+}
+
+
+/* Abstract height */
+.min-height {
+    min-height: 5rem;
+}
+
+.max-height {
+    max-height: 10rem;
+}
+
+/* Bigger text */
+.cts-1 {
+    font-size: x-large;
+
+}
+
+
+/* For class tab */
+
+
+/* Mark input boxes that gets an error on validation: */
+
+
+/* insert icons for invalid */
+
+.tab {
+    display: none;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  #prevBtn {
+    background-color: #bbbbbb;
+  }
+  
+  /* Make circles that indicate the steps of the form: */
+  .step {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbbbbb;
+    border: none;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+  }
+  
+  .step.active {
+    opacity: 1;
+  }
+  
+  /* Mark the steps that are finished and valid: */
+  .step.finish {
+    background-color: #4CAF50;
+  }
+  

@@ -1,0 +1,74 @@
+/************************
+*      Index page       *
+************************/
+
+/* Change font size and family */
+body {
+    font-family: serif;
+    
+  }
+
+/* Header font */
+.header-font {
+    font-family: 'Abril Fatface', serif;
+
+}
+
+
+
+/* Background image */
+.bg {
+    /* The image used */
+    /* Background modified */
+    background-image: url("../img/bg7.jpg");
+
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+
+}
+
+.search-min-width {
+
+    min-width: 18rem;
+}
+
+.dropdown-menu {
+    width: max-content;
+
+}
+
+
+/* Create an account modal */
+div.modal-hover:hover {
+    background: #99ebff;
+}
+
+.modal-height {
+    height: 100px;
+}
+
+.align-vertical {
+    vertical-align: middle;
+}
+
+/* Jumbotron */
+
+.jumbotron-bg-black {
+    background-color: #000000;
+  
+}
+
+/* Search input background transparent */
+
+.bg-transparent {
+
+    background-color: transparent;
+}
+
+/* hide sm-show when large screen */
+.sm-show-mst-search {
+
+    display: none;
+}

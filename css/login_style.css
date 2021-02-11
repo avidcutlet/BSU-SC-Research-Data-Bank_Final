@@ -1,0 +1,50 @@
+/********************************
+*             Log in            *
+********************************/
+
+/* Margin for the form */
+
+
+@media (min-width: 600px){
+    .form-width {
+        max-width: 80%;
+    }
+}
+
+@media (min-width: 767px){
+    .form-width {
+        max-width: 60%;
+    }
+}
+
+@media (min-width: 991px){
+    .form-width {
+        max-width: 50%;
+    }
+}
+
+
+@media (max-width: 500px){
+    form {
+        font-size: smaller;
+}
+    
+    h1 {
+        font-size: xx-large;
+    }
+}
+  
+@media (max-width: 410px) {
+    h1 {
+        font-size: x-large;
+    }
+}
+  
+  
+body {
+    font-family: 'serif';
+}
+  
+.header-font {
+    font-family: 'Abril Fatface', serif;
+}

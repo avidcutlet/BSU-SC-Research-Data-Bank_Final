@@ -1,0 +1,16 @@
+
+/* view_pdf_page.php */
+
+
+.m-0 {
+    margin: 0;
+  
+  }
+  
+  .c {
+    display: block;
+    border: none;
+    height: 100vh;
+    width: 100vw;
+  
+  }

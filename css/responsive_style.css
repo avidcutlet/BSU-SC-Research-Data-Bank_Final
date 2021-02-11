@@ -1,0 +1,197 @@
+
+/******************
+*   Small media   *
+******************/
+
+
+/* Research coordinator page */
+/* Navtab text */
+@media (max-width: 415px){
+    body {
+
+        font-size: smaller;
+    }
+
+    .sm-smaller-fs {
+
+        font-size: smaller;
+        padding-left: .5rem;
+        padding-right: .5rem;
+    }
+
+}
+
+
+@media (min-width: 520px){
+    /* show footer social media break line */
+    .sm-show-br {
+
+        display: none;
+    }
+}
+
+@media (max-width: 575px){
+
+    .sm-show {
+
+        display: block;
+    }
+}
+
+
+
+@media (max-width: 599px){
+
+    /* Index page */
+
+    body {
+
+        font-size: small;
+    }
+
+    .sm-body-font-size {
+
+        font-size: large;
+    }
+
+    .sm-research-fs {
+
+        font-size: small;
+    }
+
+
+    /* Index page */
+    /* Greetings */
+    .sm-font-size {
+
+        font-size: 1.5rem;
+    }
+
+}
+
+
+
+@media (max-width: 767px){
+    /* Footer social media margin top */
+    .sm-mt {
+
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 950px){
+
+    /* Hide tags on small media */
+    .sm-hide {
+
+        display: none;
+    }
+
+    .sm-show-mst-search {
+
+        display: block;
+    }
+}
+
+
+/* Index margin responsive settings */
+
+@media (min-width: 450px) {
+    .lg-margin {
+
+        margin-top: 13%;
+        margin-left: 8%;
+    }
+}
+
+@media (max-width: 449px) {
+
+    .sm-margin {
+
+        margin-top: 13%;
+        margin-left: 1%;
+    }
+}
+
+
+
+/**********************************
+*  Other settings for search page *
+**********************************/
+
+/* Btn group after search input */
+@media (max-width: 441px){
+
+    /* Font size for group button */
+    .sm-btn-font-size {
+        font-size: .8rem;
+    }
+
+    .sm-research-fs {
+
+        font-size: smaller;
+    }
+
+}
+
+@media (max-width: 374px){
+/* Font size for group button */
+    .sm-btn-font-size {
+        font-size: .7rem;
+    }
+}
+
+@media (max-width: 340px){
+
+    /* Font size for group button */
+    .sm-btn-font-size {
+        font-size: .6rem;
+    }
+}
+
+/* Responsive for statistics */
+
+@media (min-width: 500px) {
+
+    .sm-show-stat {
+
+        display: none;
+    }
+
+    .sm-hide-stat {
+
+        display: block;
+    }
+}
+
+@media (max-width: 499px) {
+
+    /* Statistics display block on large device */
+    .sm-show-stat {
+
+        display: inherit;
+    }
+
+    .sm-hide-stat {
+
+        display: none;
+    }
+}
+
+
+/******************
+*   Large media   *
+******************/
+@media (min-width: 768px){
+    /* Footer social media margin top */
+    .l-mt {
+
+        margin-top: -1%
+    }
+
+}
+
+/*swal text*/
+.swal-text {
+  text-align: center;
+}

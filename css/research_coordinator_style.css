@@ -1,0 +1,137 @@
+/******************************
+*  Research coordinator page  *
+******************************/
+
+body {
+  font-family: 'serif';
+}
+
+.header-font {
+  font-family: 'Abril Fatface', serif;
+}
+
+#greetings-size {
+  font-size: 40px;
+}
+
+
+#greetings-bg {
+  background-color: #f2f2f2;
+
+}
+
+
+
+/* Sort and filter margin left */
+
+.sf-margin-left {
+    margin-left: 16%;
+}
+
+/* Width button */
+
+.mw-btn-150p {
+  
+  max-width: 150%;
+}
+
+/* Student account border */
+
+#border-bg {
+  border-bottom: 1px solid #e3e3e3;
+  
+}
+
+/* Footer margin top */
+#mt-20rem {
+
+    margin-top: 20rem;
+}
+
+/* Account btn deny & verify */
+.w-btn-acc {
+  width: 48%;
+  
+}
+
+/* Max width for search bar */
+.mw-40rem {
+  max-width: 40rem;
+
+}
+
+/* Tag input */
+
+.tagify{
+
+/* Set horizontal scroll bar */
+overflow-x: auto;
+/* Remove vertical scroll bar */
+overflow-y: hidden;
+
+flex-wrap: unset;
+}
+
+
+/* Statistics display block on large device */
+.sm-show-stat {
+
+display: none;
+}
+
+/* For links inside stretched-link */
+.cards .cLink {
+  z-index: 2;
+  position: relative;
+
+}
+
+/* Hoverable background color */
+.hBg:hover {
+  background-color: #e6fff7;
+
+} 
+/*swal text*/
+.swal-text {
+  text-align: center;
+}
+
+/* Read more */
+#readMore {
+  display: none;
+}: 1px solid #bbb;
+/*table style*/
+
+td + td {
+    width: 100%;
+}
+
+.first-border-top {
+
+  border-top: 1px double #0275d8 !important;
+}
+.first-border-bottom {
+
+  border-bottom: 1px double #0275d8 !important;
+}
+
+.last-border-bottom {
+
+  border-bottom: 1px double #0275d8 !important;
+}
+
+.td-style {
+
+  background-color: #f2f2f2;
+  border-right: 1px double #0275d8 !important;
+}
+/* Center title column */
+table td:nth-child(1) {
+    text-align: center;
+}
+/* hr in filter department */
+
+.sm-show {
+
+  display: none;
+} 
